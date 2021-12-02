@@ -13,6 +13,6 @@ const forward = getInput("forward");
 const up = getInput("up");
 const down = getInput("down");
 
-y = parseInt(down - up);
+y = down - up;
 
 console.log("x: " + forward, "y: " + y, "product: " + forward * y);
