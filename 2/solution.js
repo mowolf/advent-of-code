@@ -13,6 +13,6 @@ const forward = getInput("forward");
 const up = getInput("up");
 const down = getInput("down");
 
-y = down - up;
+const y = down - up;
 
 console.log("x: " + forward, "y: " + y, "product: " + forward * y);
